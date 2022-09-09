@@ -25,5 +25,6 @@ public class SuperGreeter {
 
     public void alder(int alder) {
         System.out.println("Du er: " + alder);
+        System.out.println("Nu på Github");
     }
 }
