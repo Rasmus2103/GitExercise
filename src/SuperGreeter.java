@@ -5,9 +5,11 @@ public class SuperGreeter {
         sg.start();
 
         Scanner sc = new Scanner(System.in);
+
         System.out.println("Hvad hedder du?");
         String navn = sc.next();
         sg.navn(navn);
+
         System.out.println("Hvor gammel er du?");
         int alder = sc.nextInt();
         sg.alder(alder);
