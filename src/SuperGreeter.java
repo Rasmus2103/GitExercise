@@ -8,6 +8,9 @@ public class SuperGreeter {
         System.out.println("Hvad hedder du?");
         String navn = sc.next();
         sg.navn(navn);
+        System.out.println("Hvor gammel er du?");
+        int alder = sc.nextInt();
+        sg.alder(alder);
     }
 
     public void start() {
@@ -16,5 +19,9 @@ public class SuperGreeter {
 
     public void navn(String navn) {
         System.out.println("Hello: " + navn);
+    }
+
+    public void alder(int alder) {
+        System.out.println("Du er: " + alder);
     }
 }
