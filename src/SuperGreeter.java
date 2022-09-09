@@ -21,6 +21,7 @@ public class SuperGreeter {
 
     public void navn(String navn) {
         System.out.println("Hello: " + navn);
+        System.out.println("Du er nu på Github, Velkommen");
     }
 
     public void alder(int alder) {
